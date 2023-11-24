@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-8) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.5.1, no changes needed.
+  * Apply multi-arch hints. + golang-gopkg-tomb.v1-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 23 Nov 2022 23:02:22 +0000
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-7) unstable; urgency=medium
+
+  * Team upload.
+  * Add uscan watch file
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Update Priority to optional
+  * Update debhelper-compat to 12
+  * Update Standards-Version to 4.5.0
+  * Replace golang-go with golang-any
+  * Add Rules-Requires-Root
+  * Add autopkgtest-pkg-go
+  * Change copyright format url to https
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 07 Feb 2020 23:43:04 +0800
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-6) unstable; urgency=medium
+
+  * Team upload.
+  * Removed myself from uploaders.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 15 Sep 2019 19:18:06 -0400
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-5) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:09:14 -0500
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-4) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 15:10:44 -0500
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-3) unstable; urgency=medium
+
+  * Fix dead VCS-* URLs.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 07 Jan 2018 13:53:20 -0500
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+  * Remove Built-Using from arch:all -dev package
+
+  [ Alexandre Viau ]
+  * Move to salsa.debian.org
+  * Use XS-Go-Import-Path
+  * Update my email to @debian.org
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Dec 2017 20:50:46 -0500
+
+golang-gopkg-tomb.v1 (0.0~git20141024.0.dd63297-1) unstable; urgency=medium
+
+  * Initial release (Closes: #794720)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Wed, 05 Aug 2015 16:15:12 -0400
